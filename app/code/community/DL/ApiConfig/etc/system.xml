@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <myconf translate="label">
+            <label>Dreamlogistics</label>
+            <sort_order>150</sort_order>
+        </myconf>
+    </tabs>
+    <sections>
+        <dream translate="label" module="adminhtml">
+            <label>Dreamlogistics API</label>
+            <tab>myconf</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>Inställningar</label>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>Inställningar för dreamlogistics API, vid frågor kontakta <a href="mailto:lars@dreamgroup.se">Lars@dreamgroup.se</a></comment>
+                    <fields>
+                        <heading_example translate="label">
+                            <label>Användaruppgifter</label>
+                            <frontend_model>adminhtml/system_config_form_field_heading</frontend_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </heading_example>					
+                        <dl_username translate="label comment">
+                            <label>Användarnamn</label>
+                            <comment>Ditt användarnamn för Dreamlogistics API</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </dl_username>
+                        <dl_userpass translate="label comment">
+                            <label>Lösenord</label>
+                            <comment>Ditt lösenord för Dreamlogistics API</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </dl_userpass>						
+                        <dl_userid translate="label comment">
+                            <label>Partner id</label>
+                            <comment>Ditt partner id för Dreamlogistics API</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>13</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </dl_userid>	
+                    </fields>
+                </general>
+            </groups>
+        </dream>
+    </sections>
+</config>
